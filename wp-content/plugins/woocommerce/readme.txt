@@ -4,7 +4,7 @@ Tags: online store, ecommerce, shop, shopping cart, sell online
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 9.9.5
+Stable tag: 10.0.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -169,10 +169,11 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
-= 10.0.2 2025-07-14 =
+= 10.0.4 2025-07-23 =
 
 **WooCommerce**
 
-* Fix - Restore previous behaviour where init_session_cookie will create a new customer_id if no cookie exists. [#59530](https://github.com/woocommerce/woocommerce/pull/59530)
+* Fix - Possible fatal error with Gutenberg 21.2.0, in particular in Analytics reports. [#59846](https://github.com/woocommerce/woocommerce/pull/59846)
+
 
 [See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/trunk/changelog.txt).
